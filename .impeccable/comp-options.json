@@ -1,0 +1,43 @@
+{
+  "title": "Feche a composição da AERIS",
+  "question": "A direção Fluxo de Ar está definida. Qual destas três composições deve virar o site?",
+  "options": [
+    {
+      "id": "aeris-flow-01",
+      "label": "Pista Panorâmica",
+      "kicker": "COMPOSIÇÃO 01",
+      "lineage": "aeronave lateral monumental + palco azul profundo",
+      "thesis": "A aeronave atravessa o primeiro viewport em escala máxima e transforma o acesso ao hangar no gesto principal.",
+      "palette": ["#F4F7F5", "#0B1720", "#155EEF", "#FF6B35", "#B9F5D8"],
+      "materials": ["alumínio acetinado", "azul atmosférico", "papel técnico branco"],
+      "viewport": "Headline massiva à esquerda, avião lateral ocupando a metade inferior e um único comando de entrada.",
+      "risk": "A área azul deve ganhar telemetria e linhas de fluxo no código para não parecer uma peça publicitária estática.",
+      "comp": ".impeccable/mocks/aeris-flow-01.webp"
+    },
+    {
+      "id": "aeris-flow-02",
+      "label": "Asa em Corrente",
+      "kicker": "COMPOSIÇÃO 02",
+      "lineage": "close de turbina + fluxo que desemboca no inventário",
+      "thesis": "A corrente aerodinâmica sai da turbina e se converte diretamente na tabela do CRUD.",
+      "palette": ["#F4F7F5", "#0B1720", "#155EEF", "#FF6B35", "#B9F5D8"],
+      "materials": ["turbina metálica", "linhas de túnel de vento", "interface fosca"],
+      "viewport": "Título à esquerda, asa e turbinas em corte dramático à direita, inventário já visível no rodapé do primeiro quadro.",
+      "risk": "O close técnico é forte, mas pode deixar a aviação mais industrial que leve.",
+      "comp": ".impeccable/mocks/aeris-flow-02.webp"
+    },
+    {
+      "id": "aeris-flow-03",
+      "label": "Órbita Técnica",
+      "kicker": "COMPOSIÇÃO 03",
+      "lineage": "aeronave frontal + anel vivo de telemetria",
+      "thesis": "Um campo orbital reúne avião, dados e login numa única peça visual contínua.",
+      "palette": ["#F4F7F5", "#0B1720", "#155EEF", "#FF6B35", "#B9F5D8"],
+      "materials": ["anel de fluxo", "telemetria luminosa", "superfícies brancas"],
+      "viewport": "Headline no alto, painel de acesso à direita e aeronave frontal ancorada num grande circuito elíptico.",
+      "risk": "O anel precisa permanecer preciso para não cair numa estética genérica de ficção científica.",
+      "comp": ".impeccable/mocks/aeris-flow-03.webp"
+    }
+  ],
+  "steer": true
+}

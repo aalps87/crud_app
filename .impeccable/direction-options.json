@@ -1,0 +1,104 @@
+{
+  "title": "Escolha o mundo visual",
+  "question": "Qual direção deve conduzir a landing page e o inventário de hangar?",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "Fluxo de Ar",
+      "kicker": "A DIREÇÃO",
+      "lineage": "visualização de túnel de vento + telemetria de voo",
+      "thesis": "A landing transforma o fluxo invisível ao redor de uma aeronave em uma narrativa de dados viva.",
+      "palette": ["#F4F7F5", "#0B1720", "#155EEF", "#FF6B35", "#B9F5D8"],
+      "materials": ["linhas aerodinâmicas", "alumínio acetinado", "papel técnico branco"],
+      "viewport": "Um avião em escala monumental cruza o quadro; linhas de vento contornam a fuselagem e convergem no CTA de acesso ao hangar.",
+      "risk": "Exige motion preciso para não virar apenas uma imagem bonita de avião.",
+      "raised": [
+        {"from": "Miura", "raise": "As seções mudam de forma estruturalmente, como uma superfície que se desdobra, em vez de apenas aparecerem."},
+        {"from": "Instrumento", "raise": "O CRUD ganha controles táteis e um único comando de alta saliência por tela."},
+        {"from": "Ikebana", "raise": "O espaço vazio é tratado como parte ativa da composição, preservando o respiro do Hyer."}
+      ],
+      "comp": ".impeccable/mocks/decision/assigned.webp"
+    },
+    {
+      "id": "model-pick",
+      "label": "Torre em Movimento",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "Flighty + painéis de status aeroportuários",
+      "thesis": "Cartões de status orbitam a aeronave e reorganizam-se em uma central de inventário conforme a jornada avança.",
+      "palette": ["#FFFFFF", "#09051A", "#1677FF", "#F6C344", "#DDE5EE"],
+      "materials": ["painéis de status", "cartões flutuantes", "superfícies foscas"],
+      "viewport": "Tipografia direta à esquerda e uma aeronave cercada por cartões de código, disponibilidade e valor à direita.",
+      "risk": "É a direção mais próxima do Flighty e pode parecer derivativa se a composição não tiver identidade própria.",
+      "comp": ".impeccable/mocks/decision/model-pick.webp"
+    },
+    {
+      "id": "challenger-miura",
+      "label": "Asa Desdobrável",
+      "verdict": "competitive",
+      "lineage": "estrutura aeroespacial Miura-fold",
+      "thesis": "A interface nasce de uma folha técnica que se desdobra até virar asa, landing e tabela.",
+      "palette": ["#F7F7F5", "#0E0E0E", "#D4AF37", "#CFE4F7"],
+      "materials": ["folha técnica", "vincos estruturais", "foil metálico"],
+      "viewport": "Uma asa geométrica se abre do centro e revela a chamada, o login e o primeiro registro do hangar.",
+      "case": "Identifica-se fortemente com engenharia aeronáutica, mas comunica menos imediatamente a leveza da experiência desejada.",
+      "risk": "Pode ficar técnico demais e perder a sensação humana e premium do Hyer.",
+      "comp": ".impeccable/mocks/decision/challenger-miura.webp",
+      "hero": ".impeccable/quality-bars/miura-hero.webp",
+      "board": ".impeccable/quality-bars/miura-board.webp"
+    },
+    {
+      "id": "challenger-hardware",
+      "label": "Instrumento de Hangar",
+      "verdict": "competitive",
+      "lineage": "instrumentos físicos de precisão",
+      "thesis": "Cada ação do CRUD se comporta como um controle físico claro, deliberado e satisfatório.",
+      "palette": ["#171A1E", "#E6E2D9", "#FF6A00", "#FFC24D"],
+      "materials": ["alumínio anodizado", "teclas de precisão", "display âmbar"],
+      "viewport": "Um painel de manutenção ocupa a página como um objeto físico, com um único controle laranja para entrar no sistema.",
+      "case": "É excelente para o CRUD, mas menos coerente com a leveza editorial pedida para a landing.",
+      "risk": "O peso industrial pode deixar a experiência mais escura e densa do que o briefing pede.",
+      "comp": ".impeccable/mocks/decision/challenger-hardware.webp",
+      "hero": ".impeccable/quality-bars/hardware-hero.webp",
+      "board": ".impeccable/quality-bars/hardware-board.webp"
+    },
+    {
+      "id": "challenger-teletext",
+      "label": "Teletexto de Partidas",
+      "verdict": "declined",
+      "lineage": "revista teletexto de aviação",
+      "thesis": "Voos e peças viram páginas numeradas em uma malha rígida de informação.",
+      "palette": ["#000000", "#FFFF00", "#00FFFF", "#FFFFFF"],
+      "materials": ["pixels em bloco", "grade 40 × 24"],
+      "viewport": "Uma página de partidas em blocos abre o sistema.",
+      "case": "A disciplina de dados é útil, mas a estética retrô contradiz o pedido clean e moderno.",
+      "kept": "Hierarquia de dados instantaneamente escaneável.",
+      "risk": "Pode parecer uma brincadeira nostálgica em vez de um produto contemporâneo."
+    },
+    {
+      "id": "challenger-citypop",
+      "label": "Horizonte City-pop",
+      "verdict": "declined",
+      "lineage": "capa airbrush city-pop",
+      "thesis": "A viagem acontece sobre um horizonte contínuo de céu, mar e reflexos cromados.",
+      "palette": ["#F7A38B", "#9ADCF0", "#14324A", "#E7EEF2"],
+      "materials": ["airbrush", "cromo", "horizonte pastel"],
+      "viewport": "O avião cruza um horizonte pastel que permanece durante toda a rolagem.",
+      "case": "Entrega impacto, mas associa o produto a lazer retrô e reduz a clareza operacional.",
+      "kept": "Uma linha de horizonte contínua conecta toda a narrativa.",
+      "risk": "A personalidade pode dominar o CRUD e envelhecer rapidamente."
+    }
+  ],
+  "reroll": {"registers": ["safer", "bolder"]},
+  "buildPath": {"value": "comp", "toggle": true},
+  "canon": true,
+  "canonCard": {
+    "label": "Aviação premium clássica",
+    "thesis": "Fotografia cinematográfica de jato, tipografia elegante e muito espaço em branco, executados com alto acabamento.",
+    "palette": ["#FAFAF7", "#111111", "#9B7A45"],
+    "materials": ["fotografia de aviação", "grid editorial", "detalhes metálicos"],
+    "viewport": "Um jato em fotografia full-bleed com chamada curta e botão de acesso.",
+    "risk": "É bonito e familiar, mas se parece com muitas empresas de fretamento.",
+    "comp": ".impeccable/mocks/decision/canon.webp"
+  },
+  "steer": true
+}
