@@ -1,0 +1,35 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-q_B2fqF6.css",
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "name": "app",
+    "names": [
+      "app.css"
+    ]
+  },
+  "resources/css/hangar.css": {
+    "file": "assets/hangar-CIHCGtJM.css",
+    "src": "resources/css/hangar.css",
+    "isEntry": true,
+    "name": "hangar",
+    "names": [
+      "hangar.css"
+    ]
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-Dz5twovO.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "css": [
+      "assets/app-DCBuVvI5.css"
+    ]
+  },
+  "resources/js/hangar.js": {
+    "file": "assets/hangar-6eLiT9cr.js",
+    "name": "hangar",
+    "src": "resources/js/hangar.js",
+    "isEntry": true
+  }
+}
